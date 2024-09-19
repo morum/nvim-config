@@ -10,9 +10,6 @@ return {
       ensure_installed = {
         "lua_ls",
         "gopls",
-        "ts_ls",
-        "jsonls",
-        "yamlls",
         -- add more arguments for adding more language servers
       },
     },
@@ -33,8 +30,7 @@ return {
     -- overrides `require("mason-nvim-dap").setup(...)`
     opts = {
       ensure_installed = {
-        "python",
-        -- add more arguments for adding more debuggers
+        "go",
       },
     },
   },
